@@ -21,7 +21,7 @@ spring:
     host: paascloud-db-redis
     password: paascloud@redis
     port: 6379
-    timeout: 0
+    timeout: 30
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     filters: stat,wall
@@ -111,8 +111,8 @@ paascloud:
       expiredMinutes: 120
   aliyun:
     key:
-      accessKeyId: 'your aliyun accessKeyId'
-      accessKeySecret: 'your aliyun accessKeySecret'
+      accessKeyId: 'Od0OkhFgIDsT4ZIt'
+      accessKeySecret: 'hb4qbPcXhBCeRZOdk5Vflvs9m7ogED'
     rocketMq:
       namesrvAddr: paascloud-mq-rocket:9876
     sms:
